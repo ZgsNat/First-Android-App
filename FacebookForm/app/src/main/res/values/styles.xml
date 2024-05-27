@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Layout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="LinearLayout" parent="Layout">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="Language" parent="Layout">
+        <item name="android:layout_weight">1</item>
+        <item name="android:text">English</item>
+        <item name="android:textColor">#BCBABA</item>
+    </style>
+    <style name="Change" parent="Layout">
+        <item name="android:layout_weight">1</item>
+        <item name="android:text">• Change</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="Image">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:layout_marginStart">168dp</item>
+        <item name="android:layout_marginTop">158dp</item>
+        <item name="android:layout_marginEnd">168dp</item>
+        <item name="android:layout_marginBottom">498dp</item>
+        <item name="android:contentDescription">FacebookLogo</item>
+    </style>
+    <style name="LinearLayout2">
+        <item name="android:layout_width">337dp</item>
+        <item name="android:layout_height">134dp</item>
+        <item name="android:layout_marginTop">77dp</item>
+        <item name="android:layout_marginBottom">247dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="Username">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">#DCE0E8</item>
+        <item name="android:ems">10</item>
+        <item name="android:hint">Email or Phone</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColorHint">#B5C2CC</item>
+    </style>
+    <style name="Password" parent="Username">
+        <item name="android:hint">Password</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+</resources>
